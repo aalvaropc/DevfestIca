@@ -1,0 +1,61 @@
+.SectionRegistation {
+  background-color: #0f9d56;
+  padding: 1% 0%;
+  font-size: 2.5em;
+  font-weight: 700;
+  text-align: center;
+  display: flex;
+  color: white;
+}
+
+.txtInscribete {
+}
+
+.containerRegistration {
+  margin: auto;
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.containerButtons {
+  width: 100%;
+}
+.btnRegistration,.btnCodeConduct {
+  width: 14em;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  font-size: 0.4em;
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+
+
+.btnRegistration:hover {
+  background-color: rgba(153, 141, 141, 0.452);
+}
+.btnCodeConduct:hover {
+  background-color: rgba(153, 141, 141, 0.452);
+}
+
+.imgRegistration {
+  width: 12em;
+  height: 6.5em;
+  float: right;
+}
+
+.txtContainerRegistration {
+}
+
+@media screen and (max-width: 1210px) {
+  .btnRegistration,
+  .btnCodeConduct {
+    width: 100%;
+  }
+  .imgRegistration {
+    width: 7em;
+    height: 5em;
+  }
+}
